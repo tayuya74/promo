@@ -1,0 +1,32 @@
+.promo{
+    background: URL(promo-background.png) center/cover ;
+    min-height: 800px;
+    padding-top: 40px;
+    padding-left: 102px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+}
+
+.nav_item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 11px 15px;
+    transition: all 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.nav_item:hover{
+    color: white;
+    background-color: #d03958;
+    border-radius: 5px;
+}
