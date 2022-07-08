@@ -178,3 +178,41 @@
     margin-bottom: 45px;
 }
 
+.our_story{
+    background-color: #d03958; 
+  
+}
+
+.our_story_content{
+    display: flex;
+    align-items: center;
+   
+    color: white;
+    font-size: 20px;
+    font-family: "PTSeif";
+    line-height: 1.4;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.our_story_btn{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+    text-decoration: none;
+    color: black;
+    background-color: #e3d5b8;
+    border-radius: 5px;
+    padding: 25px 70px;
+    margin: 20px;
+    font-weight: bold
+}
+
+.our_story_btn:hover{
+    color: black;
+}
+
+.our_story_content p{
+    margin-bottom: 0px;
+}
