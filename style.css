@@ -239,6 +239,8 @@
     display: flex;
     flex-direction: column;
     padding: 1em;
+    position: relative;
+    overflow: hidden;
 }
 
 .pricing_name{
@@ -279,4 +281,20 @@
 .pricing_btn:hover{
     background-color: #d03958;
     color: white;   
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 90px solid #b4a993;
+    border-right: 90px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.triangle p{
+    font-size: 16px;
+    position: absolute;
+    transform: translateY(-70px) rotate(-45deg);
 }
