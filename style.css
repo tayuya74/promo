@@ -147,7 +147,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-
 }
 
 .services-title{
@@ -186,7 +185,6 @@
 .our_story_content{
     display: flex;
     align-items: center;
-   
     color: white;
     font-size: 20px;
     font-family: "PTSeif";
@@ -215,4 +213,70 @@
 
 .our_story_content p{
     margin-bottom: 0px;
+}
+
+.pricing{
+    background-color: #e3d5b8;
+    padding: 60px;
+}
+
+.pricing_title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing_content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.pricing_item{
+    background-color: white;
+    width: calc(33.333% - 20px);
+    border-radius: 5px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.pricing_name{
+    font-size: 22px;
+}
+
+.pricing_cost{
+    color: #d03958;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.pricing_item:first-child .pricing_cost{
+    font-weight: normal;
+}
+
+.pricing_text{
+    font-size: 20px;
+    font-family: "PTSeif";
+    line-height: 1.27;
+    margin-bottom: 0;
+}
+
+.pricing_btn{
+    background-color: #e3d5b8;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;   
+    padding: 15px 15px;
+    transition: all 0.4s ease;
+    margin-top: 15px;
+} 
+
+.pricing_btn:hover{
+    background-color: #d03958;
+    color: white;   
 }
